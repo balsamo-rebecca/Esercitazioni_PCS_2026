@@ -1,3 +1,4 @@
+// per la realizzazione di questo programma è stato utilizzato l'aiuto dell'intelligienza artificiale (Gemini)//
 #include <iostream>
 #include <fstream>
 #include <string>
