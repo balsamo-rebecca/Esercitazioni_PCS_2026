@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Wl,--dependency-file=CMakeFiles/prog_cmake.dir/link.d CMakeFiles/prog_cmake.dir/codice_esercitazione2.cpp.o -o prog_cmake
