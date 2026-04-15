@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wshadow -Werror=vla")
 
+enable_testing()
+
 # Creo il target per l'eseguibile principale del mio progetto software
 set(SRC_test_sorts timecounter.cpp estrapolazione_tempi.cpp)
 add_executable(estrapolazione_tempi ${SRC_test_sorts})
@@ -19,4 +21,3 @@ add_test(NAME insertionsort COMMAND test_insertionsort)
 add_executable(test_selectionsort test_selectionsort.cpp timecounter.cpp)
 add_test(NAME selectionsort COMMAND test_selectionsort)
 
-enable_testing()
