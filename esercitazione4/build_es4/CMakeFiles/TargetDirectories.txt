@@ -1,0 +1,7 @@
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/estrapolazione_tempi.dir
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/test_bubblesort.dir
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/test_insertionsort.dir
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/test_selectionsort.dir
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/test.dir
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/edit_cache.dir
+/home/pcsdocker/Data/Esercitazioni_PCS_2026/esercitazione4/build_es4/CMakeFiles/rebuild_cache.dir

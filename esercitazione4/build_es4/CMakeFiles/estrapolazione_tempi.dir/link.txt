@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wl,--dependency-file=CMakeFiles/estrapolazione_tempi.dir/link.d CMakeFiles/estrapolazione_tempi.dir/timecounter.cpp.o CMakeFiles/estrapolazione_tempi.dir/estrapolazione_tempi.cpp.o -o estrapolazione_tempi
