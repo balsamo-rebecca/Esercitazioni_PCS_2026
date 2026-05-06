@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -O3 -Wl,--dependency-file=CMakeFiles/algoritmo_ordinamento.dir/link.d CMakeFiles/algoritmo_ordinamento.dir/es5.cpp.o CMakeFiles/algoritmo_ordinamento.dir/timecounter.cpp.o -o algoritmo_ordinamento

@@ -1,0 +1,13 @@
+Osservazioni sui tempi di esecuzione degli algoritmi di ordinamento
+(modalità Release, n_vettori=1000)
+
+Dal confronto dei tempi totali emerge che, al crescere della dimensione del vettore, la funzione std::sort() è il metodo più veloce in assoluto e che l'algoritmo di ordinamento Quicksort implementato è quello che mostra l'andamento più simile, confermando come, nella pratica, la funzione std::sort() derivi da una variante di quest'ultimo.
+Merge Sort e Insertion Sort ottengono tempi totali simili, risultato che sembra controintuitivo: il Merge Sort è asintoticamente più efficiente, ma le allocazioni dinamiche ricorsive lo penalizzano.
+Bubble Sort è il peggiore, mentre Selection Sort si colloca a metà.
+
+Dall'analisi del grafico in scala log-log si osserva che esiste una dimensione soglia (sperimentalmente n ≈ 742 in Release) al di sotto della quale gli algoritmi quadratici risultano essere più veloci di quelli logaritmici.
+Nell'ottimizzazione del Quicksort è stato scelto l'utilizzo dell'algoritmo Insertion Sort perchè dal grafico e dalla misurazione del tempo complessivo risultava essere il più veloce tra i tre algoritmi quadratici, mentre come soglia è stata scelta la sua personale di n ≈ 325.
+Per poter trovare le soglie richieste si sono dovuti utilizzare vettori di dimensione molto maggiore rispetto a quanto richiesto. I valori soglia sono molto più alti di quelli previsti, inoltre il grafico risulta piuttosto "instabile"; tra le cause ipotizzate: rumore nelle misurazioni, architettura della memoria di cache. 
+Emerge come l'efficienza degli algoritmi non dipenda esclusivamente dalla loro complessità asintotica, ma sia influenzata dall'architettura hardware e dalle scelte implementative.
+
+## Vista l'instabilità del grafico e delle misurazioni, per cercare di minimizzare gli errori di analisi e interpretare correttamente i dati, ci si è avvalsi del supporto dell'intelligenza artificiale. 

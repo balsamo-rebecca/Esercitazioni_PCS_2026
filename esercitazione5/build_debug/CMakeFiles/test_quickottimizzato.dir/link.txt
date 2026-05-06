@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -g -Wl,--dependency-file=CMakeFiles/test_quickottimizzato.dir/link.d CMakeFiles/test_quickottimizzato.dir/test_quickottimizzato.cpp.o CMakeFiles/test_quickottimizzato.dir/timecounter.cpp.o -o test_quickottimizzato
