@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wl,--dependency-file=CMakeFiles/soloprint.dir/link.d CMakeFiles/soloprint.dir/noexit.cpp.o -o soloprint
