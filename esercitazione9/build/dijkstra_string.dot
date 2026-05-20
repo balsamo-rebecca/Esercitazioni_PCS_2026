@@ -1,0 +1,7 @@
+graph alberoString_dijkstra {
+ "beat" -- "king";
+ "beat" -- "snow";
+ "diamonds" -- "snow";
+ "killer" -- "king";
+ "killer" -- "league";
+}

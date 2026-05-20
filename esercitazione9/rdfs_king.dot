@@ -1,0 +1,7 @@
+graph RDFS_king {
+ "beat" -- "king";
+ "beat" -- "snow";
+ "diamonds" -- "snow";
+ "killer" -- "league";
+ "killer" -- "snow";
+}

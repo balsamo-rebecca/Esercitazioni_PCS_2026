@@ -1,0 +1,8 @@
+graph DIJKSTRA_king {
+ "beat" -- "king";
+ "beat" -- "snow";
+ "diamonds" -- "snow";
+ "killer" -- "king";
+ "killer" -- "league";
+ "killer" -- "snow";
+}

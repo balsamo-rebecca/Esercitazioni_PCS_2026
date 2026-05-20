@@ -1,0 +1,7 @@
+graph DFS_king {
+ "beat" -- "king";
+ "diamonds" -- "snow";
+ "killer" -- "king";
+ "killer" -- "league";
+ "killer" -- "snow";
+}
